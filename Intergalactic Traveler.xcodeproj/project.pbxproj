@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79BE525328CA485400BDF697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE525228CA485400BDF697 /* AppDelegate.swift */; };
+		79BE525528CA485400BDF697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE525428CA485400BDF697 /* SceneDelegate.swift */; };
+		79BE525728CA485400BDF697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE525628CA485400BDF697 /* ViewController.swift */; };
+		79BE525A28CA485400BDF697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BE525828CA485400BDF697 /* Main.storyboard */; };
+		79BE525C28CA485500BDF697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79BE525B28CA485500BDF697 /* Assets.xcassets */; };
+		79BE525F28CA485500BDF697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79BE525D28CA485500BDF697 /* LaunchScreen.storyboard */; };
+		79BE526A28CA485500BDF697 /* Intergalactic_TravelerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE526928CA485500BDF697 /* Intergalactic_TravelerTests.swift */; };
+		79BE527428CA485500BDF697 /* Intergalactic_TravelerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE527328CA485500BDF697 /* Intergalactic_TravelerUITests.swift */; };
+		79BE527628CA485500BDF697 /* Intergalactic_TravelerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE527528CA485500BDF697 /* Intergalactic_TravelerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79BE526628CA485500BDF697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79BE524728CA485400BDF697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79BE524E28CA485400BDF697;
+			remoteInfo = "Intergalactic Traveler";
+		};
+		79BE527028CA485500BDF697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79BE524728CA485400BDF697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79BE524E28CA485400BDF697;
+			remoteInfo = "Intergalactic Traveler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79BE524F28CA485400BDF697 /* Intergalactic Traveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intergalactic Traveler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BE525228CA485400BDF697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79BE525428CA485400BDF697 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79BE525628CA485400BDF697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79BE525928CA485400BDF697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79BE525B28CA485500BDF697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79BE525E28CA485500BDF697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79BE526028CA485500BDF697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BE526528CA485500BDF697 /* Intergalactic TravelerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intergalactic TravelerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BE526928CA485500BDF697 /* Intergalactic_TravelerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intergalactic_TravelerTests.swift; sourceTree = "<group>"; };
+		79BE526F28CA485500BDF697 /* Intergalactic TravelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intergalactic TravelerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BE527328CA485500BDF697 /* Intergalactic_TravelerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intergalactic_TravelerUITests.swift; sourceTree = "<group>"; };
+		79BE527528CA485500BDF697 /* Intergalactic_TravelerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intergalactic_TravelerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79BE524C28CA485400BDF697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE526228CA485500BDF697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE526C28CA485500BDF697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79BE524628CA485400BDF697 = {
+			isa = PBXGroup;
+			children = (
+				79BE525128CA485400BDF697 /* Intergalactic Traveler */,
+				79BE526828CA485500BDF697 /* Intergalactic TravelerTests */,
+				79BE527228CA485500BDF697 /* Intergalactic TravelerUITests */,
+				79BE525028CA485400BDF697 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79BE525028CA485400BDF697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79BE524F28CA485400BDF697 /* Intergalactic Traveler.app */,
+				79BE526528CA485500BDF697 /* Intergalactic TravelerTests.xctest */,
+				79BE526F28CA485500BDF697 /* Intergalactic TravelerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79BE525128CA485400BDF697 /* Intergalactic Traveler */ = {
+			isa = PBXGroup;
+			children = (
+				79BE525228CA485400BDF697 /* AppDelegate.swift */,
+				79BE525428CA485400BDF697 /* SceneDelegate.swift */,
+				79BE525628CA485400BDF697 /* ViewController.swift */,
+				79BE525828CA485400BDF697 /* Main.storyboard */,
+				79BE525B28CA485500BDF697 /* Assets.xcassets */,
+				79BE525D28CA485500BDF697 /* LaunchScreen.storyboard */,
+				79BE526028CA485500BDF697 /* Info.plist */,
+			);
+			path = "Intergalactic Traveler";
+			sourceTree = "<group>";
+		};
+		79BE526828CA485500BDF697 /* Intergalactic TravelerTests */ = {
+			isa = PBXGroup;
+			children = (
+				79BE526928CA485500BDF697 /* Intergalactic_TravelerTests.swift */,
+			);
+			path = "Intergalactic TravelerTests";
+			sourceTree = "<group>";
+		};
+		79BE527228CA485500BDF697 /* Intergalactic TravelerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79BE527328CA485500BDF697 /* Intergalactic_TravelerUITests.swift */,
+				79BE527528CA485500BDF697 /* Intergalactic_TravelerUITestsLaunchTests.swift */,
+			);
+			path = "Intergalactic TravelerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79BE524E28CA485400BDF697 /* Intergalactic Traveler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BE527928CA485500BDF697 /* Build configuration list for PBXNativeTarget "Intergalactic Traveler" */;
+			buildPhases = (
+				79BE524B28CA485400BDF697 /* Sources */,
+				79BE524C28CA485400BDF697 /* Frameworks */,
+				79BE524D28CA485400BDF697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intergalactic Traveler";
+			productName = "Intergalactic Traveler";
+			productReference = 79BE524F28CA485400BDF697 /* Intergalactic Traveler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79BE526428CA485500BDF697 /* Intergalactic TravelerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BE527C28CA485500BDF697 /* Build configuration list for PBXNativeTarget "Intergalactic TravelerTests" */;
+			buildPhases = (
+				79BE526128CA485500BDF697 /* Sources */,
+				79BE526228CA485500BDF697 /* Frameworks */,
+				79BE526328CA485500BDF697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79BE526728CA485500BDF697 /* PBXTargetDependency */,
+			);
+			name = "Intergalactic TravelerTests";
+			productName = "Intergalactic TravelerTests";
+			productReference = 79BE526528CA485500BDF697 /* Intergalactic TravelerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79BE526E28CA485500BDF697 /* Intergalactic TravelerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79BE527F28CA485500BDF697 /* Build configuration list for PBXNativeTarget "Intergalactic TravelerUITests" */;
+			buildPhases = (
+				79BE526B28CA485500BDF697 /* Sources */,
+				79BE526C28CA485500BDF697 /* Frameworks */,
+				79BE526D28CA485500BDF697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79BE527128CA485500BDF697 /* PBXTargetDependency */,
+			);
+			name = "Intergalactic TravelerUITests";
+			productName = "Intergalactic TravelerUITests";
+			productReference = 79BE526F28CA485500BDF697 /* Intergalactic TravelerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79BE524728CA485400BDF697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					79BE524E28CA485400BDF697 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					79BE526428CA485500BDF697 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 79BE524E28CA485400BDF697;
+					};
+					79BE526E28CA485500BDF697 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 79BE524E28CA485400BDF697;
+					};
+				};
+			};
+			buildConfigurationList = 79BE524A28CA485400BDF697 /* Build configuration list for PBXProject "Intergalactic Traveler" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79BE524628CA485400BDF697;
+			productRefGroup = 79BE525028CA485400BDF697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79BE524E28CA485400BDF697 /* Intergalactic Traveler */,
+				79BE526428CA485500BDF697 /* Intergalactic TravelerTests */,
+				79BE526E28CA485500BDF697 /* Intergalactic TravelerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79BE524D28CA485400BDF697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE525F28CA485500BDF697 /* LaunchScreen.storyboard in Resources */,
+				79BE525C28CA485500BDF697 /* Assets.xcassets in Resources */,
+				79BE525A28CA485400BDF697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE526328CA485500BDF697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE526D28CA485500BDF697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79BE524B28CA485400BDF697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE525728CA485400BDF697 /* ViewController.swift in Sources */,
+				79BE525328CA485400BDF697 /* AppDelegate.swift in Sources */,
+				79BE525528CA485400BDF697 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE526128CA485500BDF697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE526A28CA485500BDF697 /* Intergalactic_TravelerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79BE526B28CA485500BDF697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79BE527628CA485500BDF697 /* Intergalactic_TravelerUITestsLaunchTests.swift in Sources */,
+				79BE527428CA485500BDF697 /* Intergalactic_TravelerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79BE526728CA485500BDF697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79BE524E28CA485400BDF697 /* Intergalactic Traveler */;
+			targetProxy = 79BE526628CA485500BDF697 /* PBXContainerItemProxy */;
+		};
+		79BE527128CA485500BDF697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79BE524E28CA485400BDF697 /* Intergalactic Traveler */;
+			targetProxy = 79BE527028CA485500BDF697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79BE525828CA485400BDF697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BE525928CA485400BDF697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79BE525D28CA485500BDF697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79BE525E28CA485500BDF697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79BE527728CA485500BDF697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79BE527828CA485500BDF697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79BE527A28CA485500BDF697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D3NKWCHB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Intergalactic Traveler/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FLAW.Intergalactic-Traveler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79BE527B28CA485500BDF697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D3NKWCHB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Intergalactic Traveler/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FLAW.Intergalactic-Traveler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79BE527D28CA485500BDF697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D3NKWCHB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FLAW.Intergalactic-TravelerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intergalactic Traveler.app/Intergalactic Traveler";
+			};
+			name = Debug;
+		};
+		79BE527E28CA485500BDF697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D3NKWCHB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FLAW.Intergalactic-TravelerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intergalactic Traveler.app/Intergalactic Traveler";
+			};
+			name = Release;
+		};
+		79BE528028CA485500BDF697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D3NKWCHB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FLAW.Intergalactic-TravelerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intergalactic Traveler";
+			};
+			name = Debug;
+		};
+		79BE528128CA485500BDF697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D3NKWCHB9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FLAW.Intergalactic-TravelerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intergalactic Traveler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79BE524A28CA485400BDF697 /* Build configuration list for PBXProject "Intergalactic Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BE527728CA485500BDF697 /* Debug */,
+				79BE527828CA485500BDF697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BE527928CA485500BDF697 /* Build configuration list for PBXNativeTarget "Intergalactic Traveler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BE527A28CA485500BDF697 /* Debug */,
+				79BE527B28CA485500BDF697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BE527C28CA485500BDF697 /* Build configuration list for PBXNativeTarget "Intergalactic TravelerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BE527D28CA485500BDF697 /* Debug */,
+				79BE527E28CA485500BDF697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79BE527F28CA485500BDF697 /* Build configuration list for PBXNativeTarget "Intergalactic TravelerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79BE528028CA485500BDF697 /* Debug */,
+				79BE528128CA485500BDF697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79BE524728CA485400BDF697 /* Project object */;
+}
