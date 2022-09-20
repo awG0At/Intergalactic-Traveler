@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         }
         else{
             nvc.starName = "redDwarf\(randomNumber)"
-        }
+        }//hi
     }
     
    
