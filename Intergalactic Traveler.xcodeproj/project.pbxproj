@@ -16,6 +16,7 @@
 		79BE526A28CA485500BDF697 /* Intergalactic_TravelerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE526928CA485500BDF697 /* Intergalactic_TravelerTests.swift */; };
 		79BE527428CA485500BDF697 /* Intergalactic_TravelerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE527328CA485500BDF697 /* Intergalactic_TravelerUITests.swift */; };
 		79BE527628CA485500BDF697 /* Intergalactic_TravelerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE527528CA485500BDF697 /* Intergalactic_TravelerUITestsLaunchTests.swift */; };
+		79BE528328CA4E0C00BDF697 /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BE528228CA4E0C00BDF697 /* StarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		79BE526F28CA485500BDF697 /* Intergalactic TravelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intergalactic TravelerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BE527328CA485500BDF697 /* Intergalactic_TravelerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intergalactic_TravelerUITests.swift; sourceTree = "<group>"; };
 		79BE527528CA485500BDF697 /* Intergalactic_TravelerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intergalactic_TravelerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79BE528228CA4E0C00BDF697 /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				79BE525428CA485400BDF697 /* SceneDelegate.swift */,
 				79BE525628CA485400BDF697 /* ViewController.swift */,
 				79BE525828CA485400BDF697 /* Main.storyboard */,
+				79BE528228CA4E0C00BDF697 /* StarViewController.swift */,
 				79BE525B28CA485500BDF697 /* Assets.xcassets */,
 				79BE525D28CA485500BDF697 /* LaunchScreen.storyboard */,
 				79BE526028CA485500BDF697 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BE528328CA4E0C00BDF697 /* StarViewController.swift in Sources */,
 				79BE525728CA485400BDF697 /* ViewController.swift in Sources */,
 				79BE525328CA485400BDF697 /* AppDelegate.swift in Sources */,
 				79BE525528CA485400BDF697 /* SceneDelegate.swift in Sources */,
